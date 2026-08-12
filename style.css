@@ -1,0 +1,38 @@
+body{
+    font-family: 'Outfit', sans-serif;
+}
+
+
+
+.recipe-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(330, 100%, 98%);
+    min-height: 80vh;
+    
+}
+
+.recipe-card{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    max-width: 50rem;
+    width: calc(100% - 2rem);
+    
+}
+
+.recipe-image-figure img{
+    width: 100%;
+    margin:  1.25rem 0 0 0;
+    border-radius: 12px;
+    
+}
+
+.title-recipe{
+   padding-left: 2.5rem;
+}
+
+h1{
+    font-family: 'Young Serif', serif;
+}
+
